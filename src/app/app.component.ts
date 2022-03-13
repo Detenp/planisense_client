@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'PlanisenseClient';
+  title = 'Planisense Client';
+  byGenre: Boolean = true;
+
+  changeByGenre() {
+    this.byGenre = !this.byGenre;
+  }
 }
