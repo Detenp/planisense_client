@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <body>
-  <h1>{{ title }}</h1>
-  <div class="center">
+  <div style="margin:auto;">
+    <h1>{{ title }}</h1>
     <button (click)="changeByGenre()">
       <p *ngIf="byGenre">Change to count by arrondissement</p>
       <p *ngIf="!byGenre">Change to count by genre</p>
